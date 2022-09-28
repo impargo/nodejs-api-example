@@ -1,6 +1,6 @@
 # IMPARGO API Nodejs Examples
 Example nodejs code to integrate with the IMPARGO GraphQL API. 
-As an introducting to the to API checkout the [Getting started guide](https://docs.google.com/document/d/1dl1iU7tzlj_vM0wvcWuWADaBNVYSvwHOlQGwP0-u1fE/edit?usp=sharing).
+As an introduction to the to API checkout the [Getting started guide](https://docs.google.com/document/d/1dl1iU7tzlj_vM0wvcWuWADaBNVYSvwHOlQGwP0-u1fE/edit?usp=sharing).
 
 ## Usage
 
