@@ -35,6 +35,5 @@ fetch(endpoint, {
     return result.json();
   })
   .then(result => {
-    console.log(result)
     console.log("Order successfully created:\n", JSON.stringify(result.data, null, 2));
   });

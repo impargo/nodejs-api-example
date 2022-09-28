@@ -6,7 +6,7 @@ As an introduction to the to API checkout the [Getting started guide](https://do
 
 Run the following code to create a new order via the graphql api on the IMPARGO development system:
 ```sh
-yarn install
+npm install
 export TOKEN=<your-access-token>
 ./simple.js
 ```
