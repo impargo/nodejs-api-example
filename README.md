@@ -16,3 +16,4 @@ The following eamples are contained in this this repository:
 - `simple`: Creating a simple order with two stops.
 - `additionalStopDetails`: Creating an order with three stops, additional stop data and load details.
 - `tollDetails`: Requesting the toll costs for a simple order with two stops.
+- `quoteAndCosts`:  Requesting the detailed costs (vehicle, driver, trailer, fuel, ...) and total estimated price of a tour.
