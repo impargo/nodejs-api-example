@@ -1,0 +1,59 @@
+{
+  "reference": "Ref XYZ",
+  "load": {
+    "bodyType": "TENT",
+    "equipmentExchange": false,
+    "length": 13.6,
+    "weight": 24
+  },
+  "comment": "An order with some loading units",
+  "loadingUnits": [
+    {
+      "type": "CUSTOM",
+      "icon": "EURO",
+      "name": "EURO",
+      "pickupStopIndex": 0,
+      "dropStopIndex": 1,
+      "height": 120,
+      "length": 120,
+      "width": 80,
+      "weight": 100,
+      "loadingMeters": 2,
+      "quantity": 5,
+      "stackable": false,
+      "reference": "Load ref 1",
+      "unloadingReference": "Unload ref 1"
+    },
+    {
+      "type": "CUSTOM",
+      "icon": "CUSTOM",
+      "name": "CUSTOM",
+      "pickupStopIndex": 0,
+      "dropStopIndex": 1,
+      "height": 100,
+      "length": 100,
+      "width": 100,
+      "weight": 60,
+      "loadingMeters": 1.25,
+      "quantity": 3,
+      "stackable": true,
+      "reference": "3 Boxes"
+    }
+  ],
+  "stops": [
+    {
+      "location": {
+        "city": "Berlin, Willsnackerstr. 33",
+        "zipcode": "10559",
+        "country": "de"
+      },
+      "operationType": "LOADING"
+    },
+    {
+      "location": {
+        "city": "Paris"
+      },
+      "operationType": "UNLOADING"
+    }
+  ]
+}
