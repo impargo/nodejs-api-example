@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const fetch = require("node-fetch")
-const data = require("./data/additionalStopDetailsOrder.json")
+const data = require("./data/loadingUnits.json")
 const endpoint = process.env.ENDPOINT || "https://dev.backend.impargo.eu/"
 const TOKEN = process.env.TOKEN
 const query = `
