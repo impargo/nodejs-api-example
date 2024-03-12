@@ -9,7 +9,6 @@
   "comment": "An order with some loading units",
   "loadingUnits": [
     {
-      "type": "CUSTOM",
       "icon": "EURO",
       "name": "EURO",
       "pickupStopIndex": 0,
@@ -25,9 +24,8 @@
       "unloadingReference": "Unload ref 1"
     },
     {
-      "type": "CUSTOM",
       "icon": "CUSTOM",
-      "name": "CUSTOM",
+      "name": "Box",
       "pickupStopIndex": 0,
       "dropStopIndex": 1,
       "height": 100,
