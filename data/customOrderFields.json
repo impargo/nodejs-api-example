@@ -1,0 +1,26 @@
+{
+  "stops": [
+    {
+      "location": {
+        "city": "Berlin"
+      }
+    },
+    {
+      "location": {
+        "city": "Paris"
+      }
+    }
+  ],
+  "additionalDetails": [
+    {
+      "customFieldId": "63739700b0fab6f646f5fb0c",
+      "label": "Some Label",
+      "value": "some value",
+      "visibility": [
+        "DRIVER_APP",
+        "PDF",
+        "SHAREABLE_VIEWS"
+      ]
+    }
+  ]
+}
