@@ -50,5 +50,18 @@
         "to": "17:00"
       }
     }
+  ],
+  "legViapoints": [
+    {
+      "viapoints": [
+        {
+          "coordinates": {
+            "lat": 50.70682913279811,
+            "lon": 10.624796884541297,
+            "snapRadiusMeters": 2500
+          }
+        }
+      ]
+    }
   ]
 }
