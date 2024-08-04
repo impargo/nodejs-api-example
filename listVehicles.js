@@ -28,7 +28,7 @@ fetch(endpoint, {
   })
   .then((result) => {
     console.log(
-      "Order successfully created:\n",
+      "List of vehicles:\n",
       JSON.stringify(result.data, null, 2)
     );
   });

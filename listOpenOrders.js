@@ -46,7 +46,7 @@ fetch(endpoint, {
   })
   .then((result) => {
     console.log(
-      "Order successfully created:\n",
+      "List of open orders:\n",
       JSON.stringify(result.data, null, 2)
     );
   });
