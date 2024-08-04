@@ -19,3 +19,4 @@ The following eamples are contained in this this repository:
 - `quoteAndCosts`:  Requesting the detailed costs (vehicle, driver, trailer, fuel, ...) and total estimated price of a tour.
 - `loadingUnits`: Creating an order with two stops and additional two loading units to be picked up in the first stop and dropped in the second stop.
 - `customOrderFields`: Create an order with two stops and additional custom order fields.
+- `listOpenOrders`: Lists all order with the status "OPEN".
