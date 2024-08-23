@@ -1,0 +1,14 @@
+{
+    "finance": "buy",
+    "usage": "long",
+    "axis": "5",
+    "euronorm": "6",
+    "weight": "40",
+    "co2EmissionClass": "1",
+    "profileType": "simple",
+    "name": "Example Vehicle Name",
+    "licensePlate": "B123456",
+    "costsPerDistance": 0.8,
+    "costsPerTime": 12,
+    "fuelType": "diesel"
+}

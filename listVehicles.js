@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 const endpoint = process.env.ENDPOINT || "https://dev.backend.impargo.eu/";
 const TOKEN = process.env.TOKEN;
 const query = `
-query VostprofilesVehicle {
+query CostprofilesVehicle {
   costprofilesVehicle {
     _id
     name
