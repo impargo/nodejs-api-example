@@ -191,10 +191,19 @@ function encodeScaledValue(value) {
 
     return encodeUnsignedNumber(numVal);
 }
+function encodeCoordinates (coordinates) {
+  return encode({ polyline: coordinates.map(coordinate => [coordinate.lat, coordinate.lon]) })
+}
+
+function decodeCoordinates (encoded) {
+  return decode(encoded).polyline.map(point => ({ lat: point[0], lon: point[1] }))
+}
 
 module.exports = {
     encode,
     decode,
+    encodeCoordinates,
+    decodeCoordinates,
 
     ABSENT,
     LEVEL,

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const fetch = require("node-fetch")
 const data = require("./data/simpleOrder.json")
-const { decode } = require('./utils/flexiblePolyline')
+const { decodeCoordinates } = require('./utils/flexiblePolyline')
 const endpoint = process.env.ENDPOINT || "https://dev.backend.impargo.eu/"
 const TOKEN = process.env.TOKEN
 const query = `
@@ -56,8 +56,9 @@ fetch(endpoint, {
     let coordinates = []
     result.data.importOrder.order.route.routeDetails?.legs.forEach(leg => {
       leg.calculatedRoute.segments.forEach(segment => {
-        coordinates = coordinates.concat(decode(segment.encodedCoordinates))
+        coordinates = coordinates.concat(decodeCoordinates(segment.encodedCoordinates))
       })
     })
     console.log('decoded coordinates: ', coordinates.length)
+    console.log(coordinates)
   });
