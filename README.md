@@ -24,3 +24,4 @@ The following eamples are contained in this this repository:
 - `listVehicles`: List all vehicles.
 - `createCustomer`: Create a new customer.
 - `listCustomers`: List all customers.
+- `routeShape`: Create an order with two stops and print the detailed route shape.
